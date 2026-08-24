@@ -1,6 +1,6 @@
 # Technical Report — Africasai
 
-**Team ID:** YOUR-TEAM-ID  
+**Team ID:** africasai
 **Domain:** coding_assistants  
 **Model:** Qwen2.5-1.5B-Instruct-Q4_K_M
 
