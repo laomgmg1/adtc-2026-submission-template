@@ -1,18 +1,18 @@
 {
-  "team_id": "your-team-id",
+  "team_id": "africasai",
   "domain": "coding_assistants",
   "language_scope": ["en"],
   "african_alpha_claim": false,
   "budget_laptop_claim": true,
   "submitter": {
-    "name": "your-name",
-    "email": "your-email@domain.com",
-    "github_handle": "your-github"
+    "name": "Olaoluwa",
+    "email": "dwadw001@gmail.com",
+    "github_handle": "laomgmg1"
   },
   "cross_disciplinary_pairing": {
     "discipline": "education",
     "load_bearing": true,
-    "description": "Brief description of how your model serves a real-world domain."
+    "description": "An offline coding assistant designed to support African students and developers with programming tasks on affordable consumer hardware."
   },
   "test_prompts": [
     {
@@ -25,13 +25,13 @@
     }
   ],
   "model": {
-    "name": "SmolLM2-135M-Instruct-Q4_K_M",
+    "name": "Qwen2.5-1.5B-Instruct-Q4_K_M",
     "runtime": "llama.cpp",
     "quantization": "GGUF Q4_K_M",
-    "parameters_estimate": "135M",
+    "parameters_estimate": "1.5B",
     "packaging": "binary_bundle"
   },
   "_runtime": {
-    "model_path": "model/SmolLM2-135M-Instruct-Q4_K_M.gguf"
+    "model_path": "model/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf"
   }
 }
