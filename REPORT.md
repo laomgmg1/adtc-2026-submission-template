@@ -152,28 +152,6 @@ These are self-reported development benchmarks. Official competition scores are 
 
 ---
 
-## Benchmarks
-
-| Metric | Value |
-|---|---:|
-| Machine | Intel Xeon Platinum 8573C, 2 cores |
-| Available RAM | 7.8 GB |
-| RAM at peak | 1.85 GB |
-| RAM steady state | 1.77 GB |
-| Time to first token | 13.08 s |
-| Generation speed | 8.08 t/s |
-| CPU utilization p99 | 77.8% |
-| Thermal throttling | None observed |
-| Accuracy benchmark | ARC-Easy |
-| Accuracy samples | 50 |
-| ARC-Easy accuracy | 76% |
-
-These are self-reported development benchmarks produced through the ADTC
-profiler. Official scores are measured by the ADTC profiler on the standard
-evaluation machine.
-
----
-
 ## Evaluation
 
 The Qwen2.5-1.5B-Instruct Q4_K_M model achieved 0.76 normalized accuracy
